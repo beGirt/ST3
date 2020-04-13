@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>登录窗口</title>
+	<style type="text/css">
+			* {
+				margin: 0;
+				padding: 0;
+			}
+
+			body {
+				background-color: #CFF0FB;
+			}
+			#login_frame {
+				width:  240px;
+				height: 200px;
+
+				background-color: #ffffff;
+				
+				 	/*边框*/
+				margin: 50px auto 0 auto;
+				/*margin-top: 50px;*/
+			}
+
+			hr {
+				border: 2px solid #99CCFF;
+			}
+
+			#login_frame > p {
+				text-align:center;
+
+				color: #51B6EB;
+				font-size: 30px; 
+				font-weight: bold;
+
+				line-height: 50px;
+			}
+
+			.input_field > input {
+				width: 150px;
+				height: 20px;
+			}
+			.input_field {
+				line-height: 40px;
+				margin-left: 10px;
+			}
+			.input_field > span {
+				font-size: 14px;
+			}
+
+			#submit_field > input {
+				height: 30px;
+				width: 100px;
+
+				margin-left: 20px;
+				background-color: #B4B4B4;
+
+			}
+
+			#submit_field > span {
+				/*font-size: 10px;*/
+				height: 24px;
+				width: 60px;
+			}
+
+			#submit_field {
+				margin-top: 10px;
+				text-align: center;
+			}
+	</style>
+</head>
+<body>
+		<div id="login_frame">
+			<p>登录</p>
+			<hr>
+			<div class="input_field">
+				<span>账号:</span>
+				<input type="text" name="account_field">
+			</div>
+			<div class="input_field">
+				<span>密码:</span>
+				<input type="text" name="password_field">
+			</div>
+			<div id="submit_field">
+				<input type="submit" value="登录">
+				<span>
+					<a href="#">立即注册</a>
+				</span>
+			</div>
+		</div>
+</body>
+</html>

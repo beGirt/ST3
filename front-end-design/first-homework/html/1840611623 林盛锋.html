@@ -1,0 +1,167 @@
+<!-- 家庭作业 
+
+	实现内容:	
+						1.类目栏
+						2.搜索框
+
+-->
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+	
+	<head>
+		<title>
+			1840611623 林盛锋
+		</title>
+		<!-- CSS 样式 -->
+		<style type="text/css">	
+			#d1{
+				 margin:0 auto;
+				 width:400px; 
+				 height:30px; 
+			}
+			.c1 {
+				width: 400px;
+				height: 30px;
+				margin: 0 auto;
+			}
+			#dd1 > #search_field{
+				width: 200px;
+				height: 26px;
+
+				font-size: 17px;
+				font-style: normal;
+				font-family: cursive;
+
+				float: left;
+
+				padding: 0;
+				/*border: auto auto auto auto;*/
+			}
+			#dd1 > #search_button{
+				font-size: 17px;
+				font-style: normal;
+				font-family: cursive;
+				
+				text-align:center; 
+				
+				color: white;
+				background-color: #3388FF;
+
+				float: left;
+				
+				border: 0;
+				padding: 0;
+
+				width: 120px;
+				height: 30px;
+			}
+			.c1 > #dd1 {
+				width: 350px;	
+				height: 30px;
+				margin: 0 auto;
+			}
+			.u1 {
+				background-color: #FF8200;
+				list-style-type: none;
+				
+				width: auto;
+				height: 30px;
+
+				margin: 0 auto;
+				padding: 0;
+			}
+			.u1 li {
+				float: left;
+				width: 70px;
+				height:30px;
+				
+				text-align:center; 
+				line-height:30px;
+
+				font-size: 17px;
+				font-style: normal;
+				font-weight: bold;
+				font-family: cursive;
+
+				color: white;
+			}
+
+			#d2 {
+				width: 400px;
+				height: 100px;
+				margin: 0 auto;
+			}
+
+			#login {
+				text-align: center;
+			}
+			#login > l2 {
+				text-align: center;
+			}
+			#login > input {
+				text-align: left;
+			}
+			#login > button {
+				width: 50px;
+				height: 30px;
+
+				font-size: 17px;
+				font-style: normal;
+				font-family: cursive;
+				
+				text-align:center; 
+				
+				/*color: ;*/
+				/*background-color: #3388FF;*/
+
+				float: center;
+				
+				border: 0;
+				padding: 0;
+			}
+
+		</style>
+	</head>
+
+	<body>
+		<!-- 搜索框 -->
+		<div id="d1" >
+			<form  class="c1" >
+				<div id="dd1">				
+					<input type="text" id="search_field">
+					<input type="submit" value="百度一下" id="search_button">
+				</div>
+			</form>	
+		</div>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<!-- 类目栏 -->
+		<div>
+			<ul class="u1">
+				<li>天猫</li>
+				<li>聚划算</li>
+				<li>天猫超市</li>
+			</ul>
+		</div>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<!-- 登录框 -->
+		<div id="d2">
+			<form id="login">
+				<label class="l1">登录界面</label><br>
+				<label class="l2">帐号：</label><input type="text" name="useraccount" id="user_account"><br>
+				<label class="l2">密码：</label><input type="password" name="userpassword" id="user_password"><br>
+				<button type="submit" id="login_button">登录</button><br>
+			</form>
+		</div>
+	</body>
+</html>	

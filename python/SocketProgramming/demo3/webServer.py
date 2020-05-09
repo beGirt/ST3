@@ -6,8 +6,6 @@ serverSocket = socket(AF_INET,SOCK_STREAM)
 #Prepare a server socket
 serverSocket.bind(('127.0.0.1',6789)) # 将TCP欢迎套接字绑定到指定端口
 serverSocket.listen(1) # 最大连接数为1
-#Fill in start
-#fill in end
 while True:
     #Establish the connection
     print ('Ready to serve...')

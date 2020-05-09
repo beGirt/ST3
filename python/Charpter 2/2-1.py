@@ -1,0 +1,7 @@
+months = [
+	'January',
+	'February',
+	
+
+]
+print("")
